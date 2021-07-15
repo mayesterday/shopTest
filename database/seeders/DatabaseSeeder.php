@@ -61,7 +61,7 @@ class DatabaseSeeder extends Seeder
   {
 
 
-    for ($x = 0; $x <= 9; $x++) {
+    for ($x = 0; $x <= 10; $x++) {
       $product_data_id = ProductDatas::create([
         'code' => $this->faker->randomNumber($nbDigits = NULL, $strict = false),
         'name' => $this->faker->word,
